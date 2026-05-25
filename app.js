@@ -11,14 +11,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // abcd("Umayer", 21, (arg: string) => {
 //     console.log(arg)
 // })
+const abcd = (name, age, cb) => {
+    cb();
+};
+abcd("Umayer", 21, () => {
+    console.log("Umayer");
+});
 // const a = (name: string, age:number, gender?: string) => {
 //     console.log(name,age,gender)
 // }
 // a("Umayer",21,"male")
 // a("lala",210)
-const a = (name, age, gender = "Others") => {
-    console.log(name, age, gender);
-};
-a("Umayer", 21, "male");
-a("lala", 210);
+// const a = (name: string, age:number, gender:string = "Others") => {
+//     console.log(name,age,gender)
+// }
+// a("Umayer",21,"male")
+// a("lala",210)
 //# sourceMappingURL=app.js.map
