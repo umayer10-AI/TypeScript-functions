@@ -1,6 +1,8 @@
 "use strict";
+// const a = ():string => {
+//     return "Hello"
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
 const a = () => {
-    return "Hello";
 };
 //# sourceMappingURL=app.js.map
