@@ -35,3 +35,9 @@
 // }
 // a("Umayer",21,"male")
 // a("lala",210)
+
+
+const sum = (...v: number[]) => {
+    console.log(v)
+}
+sum(1,2,3,4,5,6,7,8,9,10)
