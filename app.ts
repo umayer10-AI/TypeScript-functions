@@ -6,10 +6,22 @@
     
 // }
 
-const abcd = (name:string, age: number, cb: (arg: string) => void) => {
-    cb("Hey beta")
-}
+// const abcd = (name:string, age: number, cb: (arg: string) => void) => {
+//     cb("Hey beta")
+// }
 
-abcd("Umayer", 21, (arg: string) => {
-    console.log("Hola Hola")
-})
+// abcd("Umayer", 21, (arg: string) => {
+//     console.log(arg)
+// })
+
+// const a = (name: string, age:number, gender?: string) => {
+//     console.log(name,age,gender)
+// }
+// a("Umayer",21,"male")
+// a("lala",210)
+
+const a = (name: string, age:number, gender:string = "Others") => {
+    console.log(name,age,gender)
+}
+a("Umayer",21,"male")
+a("lala",210)
