@@ -1,1 +1,3 @@
-let a = 10
+const a = ():string => {
+    return "Hello"
+}
