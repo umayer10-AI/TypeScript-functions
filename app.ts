@@ -42,3 +42,19 @@
 // }
 // // sum(1,2,3,4,5,6,7,8,9,10)
 // sum("um","hg","naj")
+
+
+function abcd(a: string): void;
+function abcd(a: string, b:number): number;
+
+function abcd(a: any, b?: any){
+    if(typeof a === "string" && b === undefined){
+        console.log("first")
+    }
+    if(typeof a === "string" && typeof b === "number"){
+        return 123
+    }
+    else throw new Error("Something is Wrong")
+}
+
+abcd("Umayer",21)
