@@ -16,13 +16,13 @@
 // })
 
 
-const abcd = (name:string, age: number, cb: () => void) => {
-    cb()
-}
+// const abcd = (name:string, age: number, cb: () => void) => {
+//     cb()
+// }
 
-abcd("Umayer", 21, () => {
-    console.log("Umayer")
-})
+// abcd("Umayer", 21, () => {
+//     console.log("Umayer")
+// })
 
 // const a = (name: string, age:number, gender?: string) => {
 //     console.log(name,age,gender)
